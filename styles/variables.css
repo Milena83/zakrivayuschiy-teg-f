@@ -1,1 +1,18 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --bg-page: repeating-linear-gradient(to right, #d3d3d3, transparent 2px, #d3d3d3 4px), 
+             repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px, #d3d3d3 4px),
+             linear-gradient(#e7e7e7, #1a1a1a);
+  --font-family: "Inter", monospace, sans-serif;
+  --second-family: "Press Start 2P", monospace, sans-serif;
+  --font-weight-text: 400; 
+  --font-weight-title: 700; 
+  --width-content: clamp(375px, 80vw, 700px); 
+  --width-dialog-text: clamp(198px, 50vw, 234px);
+  --main-text-size: 18px;
+  --main-color: #000;
+  --bg-color: #fff;
+  --bg-color-dialog: rgb(0 0 0 / 0.75);
+  --color-contour-heart: black;
+  --color-main-body-heart: #FF0000;
+}
