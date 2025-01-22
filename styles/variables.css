@@ -4,7 +4,7 @@
              repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px, #d3d3d3 4px),
              linear-gradient(#e7e7e7, #1a1a1a);
   --font-family: "Inter", monospace, sans-serif;
-  --second-family: "Press Start 2P", monospace, sans-serif;
+  --backup-font: "Press Start 2P", monospace, sans-serif;
   --font-weight-text: 400; 
   --font-weight-title: 700; 
   --width-content: clamp(375px, 80vw, 700px); 
